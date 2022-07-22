@@ -1,0 +1,415 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .s9 h4{
+        min-height: 145px;
+    }
+    .s9 .case h3{
+        font-size: 25px;
+    }
+	h2{
+		font-size: 35px;
+	}
+    .s9 .case p{
+        min-height: 95px;
+    }
+	.s11 iframe, .course_s7 iframe {
+    height: 255px;
+}
+.s9 .case {
+    margin: 5px;
+}
+.s7 .item{
+	width: 47%;
+}
+.s6 p{
+	width: 80%;
+}
+.s5 .item,.s3 .item{
+	width: 31%;
+}
+h1{
+	font-size: 155px;
+}
+
+.course_s5 img,.course_s1 img {
+    width: 100%;
+}
+.course_s5 .h2{
+    font-size: 150px;
+    bottom: 20%;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .s9 .cases .all{
+        width: 100%;
+    }
+    .s9 .case{
+    	margin-bottom: 20px;
+    }
+    footer .goog,footer .fb{
+        position: relative;
+        display: inline-block;
+        top: 0;
+        left: 0;
+        vertical-align: middle;
+        margin-top: 15px;
+    }
+    .s9 .item p{
+        min-height: initial;
+    }
+	h1{
+	font-size: 120px;
+}
+.s2,.s8{
+	text-align: center;
+}
+.s8{
+	padding-bottom: 260px;
+}
+.s2 p{
+	width: 100%;
+}
+.s2 img{
+	width: 35%;
+}
+.s3 img {
+    top: -1%;
+    left: 35%;
+}
+.s5 .item, .s3 .item,.s7 .item {
+    width: 100%;
+    margin: 0 !important;
+}
+.s7 .item{
+	margin-bottom: 10px !important;
+}
+.s3 .item:nth-child(1):after, .s3 .item:nth-child(2):after,.s5 .item:nth-child(1):after, .s5 .item:nth-child(2):after,.s8 p br,.s13 h2 br{
+	display: none;
+}
+.s4 img {
+    width: 35%;
+    margin-top: 15px;
+}
+.s5 ul{
+	margin-bottom: 0 !important;
+}
+.s6 .row {
+    margin-top: 0;
+}
+.s9 ul>li {
+    width: 33%;
+    margin-bottom: 20px;
+}
+.s9 .gallery div {
+    width: 20%;
+}
+.s10 {
+    background-size: 57%;
+    background-color: #000;
+    background-position: right bottom;
+}
+.s11 iframe,.course_s7 iframe {
+    height: 400px;
+}
+.s13 img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.course_s1 img{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.course_s2 img {
+    width: 30%;
+}
+.course_s5 img {
+    width: 60%;
+    float: none;
+    margin-bottom: 20px;
+}
+.course_s6 p {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+.course_s6 ul {
+    margin-top: 0;
+}
+.course_s8{
+    text-align: center;
+}
+.course_s8 hr{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.course_s5 .h2{
+    top: 35%;
+    bottom: 0;
+    font-size: 130px;
+}
+.course_s5 .result p{
+    margin-top: 10px;
+}
+.result{
+    margin-top: 100px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.s14 form {
+    margin-top: 15px;
+}
+.s14 {
+    padding: 70px 0 50px;
+}
+.s13 .offer {
+    padding: 50px 25px 25px;
+}
+.slick-next {
+    right: 0;
+}
+.slick-prev {
+    left: 0;
+}
+.s10{
+	    padding: 20px 0 100px;
+}
+.s9 .gallery div {
+    width: 25%;
+}
+.s9 .top {
+    margin: 35px 0 20px;
+}
+.s9 ul {
+    margin-bottom: 0px;
+}
+.s8 {
+    padding-bottom: 215px;
+    padding-top: 120px;
+}
+.s7 .item {
+    padding: 25px 80px;
+}
+.s7 p {
+    font-size: 19px;
+}
+.s7{
+	padding-top: 25px;
+}
+.s5 button {
+    margin-top: 15px;
+}
+.s5 ul>li {
+    margin-bottom: 10px;
+}
+.s5 h3 {
+    margin-bottom: 10px;
+}
+.s5 img{
+	margin-top: 15px;
+}
+.s3 .item p {
+    margin-bottom: 15px;
+}
+.s3 ul>li {
+    margin-bottom: 10px;
+}
+.s3 h3{
+	margin: 10px 0;
+}
+.s3 p {
+    font-size: 21px;
+}
+.s3 img {
+    top: 2%;
+}
+.s2 {
+    padding-bottom: 50px;
+}
+.s2 h2 br{
+	display: none;
+}
+.s2 p{
+	margin-top: 50px;
+}
+.s1 {
+    padding: 50px 0;
+}
+.s1 .container div{
+	width: 80%;
+}
+.course_s4 .items .zoomD {
+    width: 50%;
+}
+.course_s5 .h2{
+    top: 40%;
+    font-size: 100px;
+}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 600px) {
+    .s12 div div{
+        min-height: initial;
+    }
+    .s12 div div img{
+        position: relative;
+    }
+h1 {
+    font-size: 80px;
+}
+.s1 p {
+    font-size: 14px;
+}
+.s1 .container div{
+	width: 100%;
+}
+.s3 img {
+    top: 4%;
+    left: 45%;
+}
+.s3 p,.s3 ul>li,.s4 p,.komanda p,.s13 p,.s13 .offer p {
+    font-size: 17px;
+}
+h2,.s6 p span {
+    font-size: 30px;
+}
+button{
+	width: 45%;
+}
+.s8 {
+    padding-bottom: 165px;
+}
+.s9 ul>li {
+    width: 45%;
+}
+.s9 .case h3{
+	margin-top: 20px;
+}
+.s9 .case p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.s11 iframe,.course_s7 iframe {
+    height: 305px;
+}
+.s13 img {
+    width: 70%;
+}
+.course_s1 h1,.course_s6 h2 {
+    font-size: 40px;
+}
+.course_s5 img {
+    width: 100%;
+}
+.course_s5 .h2{
+    top: 35%;
+    font-size: 75px;
+}
+.partners .items div{
+    width: 100%;
+    background: #fff;
+    margin-bottom: 20px;
+}
+}
+@media only screen and (max-width : 480px) {
+	.active{
+		font-size: 25px !important;
+	}
+	.s9 ul>li {
+    width: 100%;
+    margin-bottom: 5px;
+}
+.stars{
+	font-size: 13px;
+}
+.s11 iframe,.course_s7 iframe {
+    height: 245px;
+}
+.s8 img{
+	width: 30%;
+}
+.s7 .item {
+    padding: 25px 40px;
+}
+button {
+    width: 70%;
+}
+button, input[type='submit']{
+    font-size: 15px;
+}
+.mob{
+    display: block;
+}
+.desk{
+    display: none;
+}
+.s4 img {
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+}
+.s4{
+    padding-bottom: 25px;
+}
+.box-modal{
+    width: 100% !important;
+}
+.course_s5 .h2{
+    top: 37%;
+    font-size: 62px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 380px) {
+.course_s1 h1, .course_s6 h2 {
+    font-size: 30px;
+}
+.s11 iframe, .course_s7 iframe {
+    height: 185px;
+}
+.course_s5 .h2{
+    top: 40%;
+    font-size: 48px;
+}
+}
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1920px) {
+
+}
